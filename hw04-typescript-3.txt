@@ -1,0 +1,74 @@
+Script started on Sat 22 Sep 2018 11:24:58 PM UTC
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ bash --login
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ cd :[K..
+[vagrant@ubuntu-xenial:~/workspace]
+$ ll
+total 152
+drwxr-xr-x  1 vagrant vagrant   416 Sep 21 23:32 [0m[01;34m.[0m/
+drwxr-xr-x 24 root    root     4096 Sep 22 23:23 [01;34m..[0m/
+drwxr-xr-x  1 vagrant vagrant   704 Sep 12 19:52 [01;34mactivity[0m/
+drwxr-xr-x  1 vagrant vagrant   768 Sep 11 05:35 [01;34mcomp4081-juliet[0m/
+-rw-r--r--  1 vagrant vagrant 10244 Sep 21 21:00 .DS_Store
+drwxr-xr-x  1 vagrant vagrant   768 Sep 22 23:25 [01;34mgit-demo[0m/
+-rw-r--r--  1 vagrant vagrant  2325 Sep 21 23:28 hw04-typescript-1.txt
+-rw-r--r--  1 vagrant vagrant 39699 Sep 22 03:02 hw04-typescript-2.txt
+drwxr-xr-x  1 vagrant vagrant   640 Aug 30 15:54 [01;34msample_app[0m/
+-rw-r--r--  1 vagrant vagrant 39200 Sep 12 20:39 typescript.txt
+-rw-------  1 vagrant vagrant 41016 Sep 22 23:23 ubuntu-xenial-16.04-cloudimg-console.log
+drwxr-xr-x  1 vagrant vagrant    96 Aug 29 20:23 [01;34m.vagrant[0m/
+-rw-r--r--  1 vagrant vagrant  4443 Aug 29 21:17 Vagrantfile
+[vagrant@ubuntu-xenial:~/workspace]
+$ git config --global push.default simple
+[vagrant@ubuntu-xenial:~/workspace]
+$ cd git-demo
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git remote add origin https://github.com/itsAdnan/git-demo.git
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git push -u origin master
+Username for 'https://github.com': itsAdnan
+Password for 'https://itsAdnan@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/itsAdnan/git-demo.git/'
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git push -u origin master[C[C[C[C[C[Cremote add origin https://github.com/itsAdnan/git-demo.git
+fatal: remote origin already exists.
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git remote add origin https://github.com/itsAdnan/git-demo.git[C[C[C[C[C[C[37Ppush -u origin master[C[C[C[C[C[Cremote add origin https://github.com/itsAdnan/git-demo.git[C[Ccd git-demo[K[C[Cgit config --global push.default simple[C[Ccd git-demo[K[C[Cgit remote add origin https://github.com/itsAdnan/git-demo.git
+fatal: remote origin already exists.
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git remote add origin https://github.com/itsAdnan/git-demo.git
+fatal: remote origin already exists.
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git push -u origin master
+Username for 'https://github.com': itsAdnan
+Password for 'https://itsAdnan@github.com': 
+Counting objects: 192, done.
+Delta compression using up to 2 threads.
+Compressing objects:   0% (1/164)   Compressing objects:   1% (2/164)   Compressing objects:   2% (4/164)   Compressing objects:   3% (5/164)   Compressing objects:   4% (7/164)   Compressing objects:   5% (9/164)   Compressing objects:   6% (10/164)   Compressing objects:   7% (12/164)   Compressing objects:   8% (14/164)   Compressing objects:   9% (15/164)   Compressing objects:  10% (17/164)   Compressing objects:  11% (19/164)   Compressing objects:  12% (20/164)   Compressing objects:  13% (22/164)   Compressing objects:  14% (23/164)   Compressing objects:  15% (25/164)   Compressing objects:  16% (27/164)   Compressing objects:  17% (28/164)   Compressing objects:  18% (30/164)   Compressing objects:  19% (32/164)   Compressing objects:  20% (33/164)   Compressing objects:  21% (35/164)   Compressing objects:  22% (37/164)   Compressing objects:  23% (38/164)   Compressing objects:  24% (40/164)   Compressing objects:  25% (41/164)   Compressing objects:  26% (43/164)   Compressing objects:  27% (45/164)   Compressing objects:  28% (46/164)   Compressing objects:  29% (48/164)   Compressing objects:  30% (50/164)   Compressing objects:  31% (51/164)   Compressing objects:  32% (53/164)   Compressing objects:  33% (55/164)   Compressing objects:  34% (56/164)   Compressing objects:  35% (58/164)   Compressing objects:  36% (60/164)   Compressing objects:  37% (61/164)   Compressing objects:  38% (63/164)   Compressing objects:  39% (64/164)   Compressing objects:  40% (66/164)   Compressing objects:  41% (68/164)   Compressing objects:  42% (69/164)   Compressing objects:  43% (71/164)   Compressing objects:  44% (73/164)   Compressing objects:  45% (74/164)   Compressing objects:  46% (76/164)   Compressing objects:  47% (78/164)   Compressing objects:  48% (79/164)   Compressing objects:  49% (81/164)   Compressing objects:  50% (82/164)   Compressing objects:  51% (84/164)   Compressing objects:  52% (86/164)   Compressing objects:  53% (87/164)   Compressing objects:  54% (89/164)   Compressing objects:  55% (91/164)   Compressing objects:  56% (92/164)   Compressing objects:  57% (94/164)   Compressing objects:  58% (96/164)   Compressing objects:  59% (97/164)   Compressing objects:  60% (99/164)   Compressing objects:  61% (101/164)   Compressing objects:  62% (102/164)   Compressing objects:  63% (104/164)   Compressing objects:  64% (105/164)   Compressing objects:  65% (107/164)   Compressing objects:  66% (109/164)   Compressing objects:  67% (110/164)   Compressing objects:  68% (112/164)   Compressing objects:  69% (114/164)   Compressing objects:  70% (115/164)   Compressing objects:  71% (117/164)   Compressing objects:  72% (119/164)   Compressing objects:  73% (120/164)   Compressing objects:  74% (122/164)   Compressing objects:  75% (123/164)   Compressing objects:  76% (125/164)   Compressing objects:  77% (127/164)   Compressing objects:  78% (128/164)   Compressing objects:  79% (130/164)   Compressing objects:  80% (132/164)   Compressing objects:  81% (133/164)   Compressing objects:  82% (135/164)   Compressing objects:  83% (137/164)   Compressing objects:  84% (138/164)   Compressing objects:  85% (140/164)   Compressing objects:  86% (142/164)   Compressing objects:  87% (143/164)   Compressing objects:  88% (145/164)   Compressing objects:  89% (146/164)   Compressing objects:  90% (148/164)   Compressing objects:  91% (150/164)   Compressing objects:  92% (151/164)   Compressing objects:  93% (153/164)   Compressing objects:  94% (155/164)   Compressing objects:  95% (156/164)   Compressing objects:  96% (158/164)   Compressing objects:  97% (160/164)   Compressing objects:  98% (161/164)   Compressing objects:  99% (163/164)   Compressing objects: 100% (164/164)   Compressing objects: 100% (164/164), done.
+Writing objects:   0% (1/192)   Writing objects:   1% (2/192)   Writing objects:   2% (5/192)   Writing objects:   3% (6/192)   Writing objects:   4% (8/192)   Writing objects:   5% (10/192)   Writing objects:   6% (12/192)   Writing objects:   7% (14/192)   Writing objects:   8% (16/192)   Writing objects:   9% (18/192)   Writing objects:  10% (21/192)   Writing objects:  11% (22/192)   Writing objects:  12% (24/192)   Writing objects:  13% (25/192)   Writing objects:  14% (27/192)   Writing objects:  15% (29/192)   Writing objects:  16% (31/192)   Writing objects:  17% (33/192)   Writing objects:  18% (35/192)   Writing objects:  19% (37/192)   Writing objects:  20% (39/192)   Writing objects:  21% (41/192)   Writing objects:  22% (43/192)   Writing objects:  23% (45/192)   Writing objects:  24% (47/192)   Writing objects:  25% (48/192)   Writing objects:  26% (50/192)   Writing objects:  27% (52/192)   Writing objects:  28% (54/192)   Writing objects:  29% (56/192)   Writing objects:  30% (58/192)   Writing objects:  31% (60/192)   Writing objects:  32% (62/192)   Writing objects:  33% (64/192)   Writing objects:  34% (66/192)   Writing objects:  35% (68/192)   Writing objects:  36% (70/192)   Writing objects:  37% (72/192)   Writing objects:  38% (73/192)   Writing objects:  39% (75/192)   Writing objects:  40% (77/192)   Writing objects:  41% (79/192)   Writing objects:  42% (81/192)   Writing objects:  43% (83/192)   Writing objects:  44% (85/192)   Writing objects:  45% (87/192)   Writing objects:  46% (89/192)   Writing objects:  47% (91/192)   Writing objects:  48% (93/192)   Writing objects:  49% (95/192)   Writing objects:  50% (96/192)   Writing objects:  51% (98/192)   Writing objects:  52% (100/192)   Writing objects:  53% (102/192)   Writing objects:  54% (104/192)   Writing objects:  55% (106/192)   Writing objects:  56% (108/192)   Writing objects:  57% (110/192)   Writing objects:  58% (112/192)   Writing objects:  59% (114/192)   Writing objects:  60% (116/192)   Writing objects:  61% (118/192)   Writing objects:  62% (120/192)   Writing objects:  63% (121/192)   Writing objects:  64% (123/192)   Writing objects:  65% (125/192)   Writing objects:  66% (127/192)   Writing objects:  67% (129/192)   Writing objects:  68% (131/192)   Writing objects:  69% (133/192)   Writing objects:  70% (135/192)   Writing objects:  71% (137/192)   Writing objects:  72% (139/192)   Writing objects:  73% (141/192)   Writing objects:  74% (143/192)   Writing objects:  75% (144/192)   Writing objects:  76% (146/192)   Writing objects:  77% (148/192)   Writing objects:  78% (150/192)   Writing objects:  79% (152/192)   Writing objects:  80% (154/192)   Writing objects:  81% (156/192)   Writing objects:  82% (158/192)   Writing objects:  83% (160/192)   Writing objects:  84% (162/192)   Writing objects:  85% (164/192)   Writing objects:  86% (166/192)   Writing objects:  87% (168/192)   Writing objects:  88% (169/192)   Writing objects:  89% (171/192)   Writing objects:  90% (173/192)   Writing objects:  91% (175/192)   Writing objects:  92% (177/192)   Writing objects:  93% (179/192)   Writing objects:  94% (181/192)   Writing objects:  95% (183/192)   Writing objects:  96% (185/192)   Writing objects:  97% (187/192)   Writing objects:  98% (189/192)   Writing objects:  99% (191/192)   Writing objects: 100% (192/192)   Writing objects: 100% (192/192), 29.83 KiB | 0 bytes/s, done.
+Total 192 (delta 44), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/44)   [Kremote: Resolving deltas:   2% (1/44)   [Kremote: Resolving deltas:  38% (17/44)   [Kremote: Resolving deltas:  65% (29/44)   [Kremote: Resolving deltas:  68% (30/44)   [Kremote: Resolving deltas:  72% (32/44)   [Kremote: Resolving deltas:  75% (33/44)   [Kremote: Resolving deltas:  79% (35/44)   [Kremote: Resolving deltas:  84% (37/44)   [Kremote: Resolving deltas:  88% (39/44)   [Kremote: Resolving deltas:  93% (41/44)   [Kremote: Resolving deltas:  97% (43/44)   [Kremote: Resolving deltas: 100% (44/44)   [Kremote: Resolving deltas: 100% (44/44), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/itsAdnan/git-demo/pull/new/master[K
+remote: 
+To https://github.com/itsAdnan/git-demo.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git push -u origin master[C[C[C[C[C[Cremote add origin https://github.com/itsAdnan/git-demo.git[C[C[C[C[C[C[37Ppush -u origin master[C[C[C[C[C[Cremote add origin https://github.com/itsAdnan/git-demo.git[C[Ccd git-demo[K[C[Cgit config --global push.default simple[C[Cll[Kcd ..[C[C[1Pexit[C[Cbash --login[C[C[8Pexit[C[Cgit log --graph --oneline --all --decorate
+[?1h=* [33m8f9136e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Updated about page[m
+*   [33m26faaf1[m Merged about-page branch into master[m
+[32m|[m[33m\[m  [m
+[32m|[m * [33ma765fc4[m Updated home page[m
+[32m|[m * [33maaeae64[m Updated about page[m
+* [33m|[m [33m89577cb[m Added linkon about page back to home page[m
+* [33m|[m [33m21d275e[m Added link on home page to about page[m
+[33m|[m[33m/[m  [m
+* [33mc291d76[m Added about view[m
+* [33md2d6b0d[m Added about action to page controller[m
+* [33mc74d53e[m Added route for about page[m
+* [33m63c2792[m deleted AUTHORS file[m
+*
