@@ -1,5 +1,7 @@
 # README
 
-## contributers
+## contributars
 
--Omar
+
+    - Adnan 
+    - Omar
