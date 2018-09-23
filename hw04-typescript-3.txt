@@ -71,4 +71,80 @@ $ git push -u origin master[C[C[C[C[C[Cremote add origin https://github.c
 * [33md2d6b0d[m Added about action to page controller[m
 * [33mc74d53e[m Added route for about page[m
 * [33m63c2792[m deleted AUTHORS file[m
-*
+* [33mc9a4122[m Rename AUTHORS to be md file[m
+* [33m34c91b9[m Added AUTHORS file[m
+* [33m3f95460[m fixed bug in heading of home page[m
+* [33md9f7975[m update home oage heading to fully expand application[m
+* [33mfe78097[m updated headling of the home page view[m
+* [33m8f5d0af[m Revert "update home page view"[m
+* [33m77f033e[m update home page view[m
+* [33mafd7337[m Added home page[m
+* [33m7e2cbb2[m Started Git Demo project[m
+[K[?1l>[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git log --graph --oneline --all --decorate
+[?1h=* [33m8f9136e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Updated about page[m
+*   [33m26faaf1[m Merged about-page branch into master[m
+[32m|[m[33m\[m  [m
+[32m|[m * [33ma765fc4[m Updated home page[m
+[32m|[m * [33maaeae64[m Updated about page[m
+* [33m|[m [33m89577cb[m Added linkon about page back to home page[m
+* [33m|[m [33m21d275e[m Added link on home page to about page[m
+[33m|[m[33m/[m  [m
+* [33mc291d76[m Added about view[m
+* [33md2d6b0d[m Added about action to page controller[m
+* [33mc74d53e[m Added route for about page[m
+* [33m63c2792[m deleted AUTHORS file[m
+* [33mc9a4122[m Rename AUTHORS to be md file[m
+* [33m34c91b9[m Added AUTHORS file[m
+* [33m3f95460[m fixed bug in heading of home page[m
+* [33md9f7975[m update home oage heading to fully expand application[m
+* [33mfe78097[m updated headling of the home page view[m
+* [33m8f5d0af[m Revert "update home page view"[m
+* [33m77f033e[m update home page view[m
+* [33mafd7337[m Added home page[m
+* [33m7e2cbb2[m Started Git Demo project[m
+[K[?1l>[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git add[Kd -A
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git comi[Kmit -m "Updated read [Kme"
+[master d6019b5] Updated readme
+ 2 files changed, 74 insertions(+), 23 deletions(-)
+ create mode 100644 hw04-typescript-3.txt
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git commit -m "Updated readme"[C[C[C[C[C[Cadd -A[Klog --graph --oneline --all --decorate
+[?1h=* [33md6019b5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Updated readme[m
+* [33m8f9136e[m[33m ([m[1;31morigin/master[m[33m)[m Updated about page[m
+*   [33m26faaf1[m Merged about-page branch into master[m
+[32m|[m[33m\[m  [m
+[32m|[m * [33ma765fc4[m Updated home page[m
+[32m|[m * [33maaeae64[m Updated about page[m
+* [33m|[m [33m89577cb[m Added linkon about page back to home page[m
+* [33m|[m [33m21d275e[m Added link on home page to about page[m
+[33m|[m[33m/[m  [m
+* [33mc291d76[m Added about view[m
+* [33md2d6b0d[m Added about action to page controller[m
+* [33mc74d53e[m Added route for about page[m
+* [33m63c2792[m deleted AUTHORS file[m
+* [33mc9a4122[m Rename AUTHORS to be md file[m
+* [33m34c91b9[m Added AUTHORS file[m
+* [33m3f95460[m fixed bug in heading of home page[m
+* [33md9f7975[m update home oage heading to fully expand application[m
+* [33mfe78097[m updated headling of the home page view[m
+* [33m8f5d0af[m Revert "update home page view"[m
+* [33m77f033e[m update home page view[m
+* [33mafd7337[m Added home page[m
+* [33m7e2cbb2[m Started Git Demo project[m
+[K[?1l>[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ 
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ 
+[vagrant@ubuntu-xenial:~/workspace/git-demo]
+$ git push
+Username for 'https://github.com': itsAdnan
+Password for 'https://itsAdnan@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 2.64 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving de
